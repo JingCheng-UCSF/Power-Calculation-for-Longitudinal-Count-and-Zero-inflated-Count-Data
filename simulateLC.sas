@@ -40,6 +40,7 @@ random effects from the logit part and random effects from the count part of ZIP
 Required if ydist=zip/zinb
 outds= dataset to save the simulated data.
 Written by Nancy Cheng
+Reviewed by Jing Cheng
 Date: 05/10/2019
 Mod Date: 1/28/2021
 **************************************************************************************;
