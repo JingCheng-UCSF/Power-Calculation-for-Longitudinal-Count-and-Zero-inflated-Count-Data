@@ -9,10 +9,11 @@ mzi= specifies GLMM or Marginal ZI model for zip or zinb distributions. mzi=1 fo
 Marginalized ZI and mzi=0 for GLMM. The default is 0 (GLMM). Not applicable 
 if ydist = poisson or negbin
 gconv= specifies the relative gradient convergence criterion, 
-required if ydist=zip or zinb. The default value is 1E–8. 
+required if ydist=zip or zinb. The default value is 1Eâ€“8. 
 outds= specifies the output data set that saves the power(s) for interaction of 
        treatment by time
 Written by Nancy Cheng
+Reviewed by Jing Cheng
 Date: 01/28/2021 
 **********************************************************************************;
 %macro lcPower(ds=, ydist=, mzi=0, gconv=1E-8, outds=);
